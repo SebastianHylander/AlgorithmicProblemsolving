@@ -3,7 +3,23 @@
 ## D&D Matching magic-items with players
 
 ### Story:
+Your party has finally completed your latest quest and saved the town, but during the fight, that pesky monster destroyed all of your magic items!
+Luckily, a local lord has taken pity on you and decided to allow you to take as many magic items as you can carry from his own private collection, on a few conditions:
 
+- Every item you take must be worn by a player who can use it, and
+- every item which requires attunement must be attuned to.
+
+As it turns out, the lord's collection is quite unique, and most of the magic items have very specific requirements for the user.
+You decide sort the items into `5` categories - helmets, armor, cloaks, shields, and weapons - and label each item with the names of the players who meet the requirements to use it.
+It takes a bit of work, but after all the trouble you went through, you feel the right to be a little greedy.
+
+While doing this, you have managed to clearly define your rules:
+
+- A player can take at most `1` item from each of the `5` categories.
+- A player can take at most `3` items which require attunement.
+- A player can only take items which they can use.
+
+All that is left to do now, is figure out how you can distribute the items to get as many as possible...
 
 ## Hungarian alogrithm problem
 ### Algorithm:
@@ -11,28 +27,30 @@ Make use of a network-flow alogrithm to maximize the amount of magic-items the p
 A player can atune to a maximum of 3 items
 
 ### Input
-number of players `n` and `m` number of items<br/>
-`n` names of players <br/>
-`m` different items each with a rarity and some players who can atune to the item
+The first line contains two integers `N` and `M`, indicating the number of players in the party and the number of magic items in the collection, respectively.<br/>
+The following `M` lines contain:
+
+- An integer `c`, indicating the category of the item.
+- The character 'A', if the item requires attunement, or the character '-' if it does not.
+- A list of names, indicating the people in your party who meet the requirements to use the item.
+
 ### Output
-The sum of the rarity of items
+Output the maximum number of items which the party can take.
 
 ### Sample:
 
 ##### IN:
 ```
 2 5
-Thordak
-Galroc
-1 Thordak
-2 Thordak Galroc
-1 Thordak
-3 Thordak
-1 Thordak
+1 - Thordak
+2 A Thordak Galroc
+2 - Thordak
+4 A Thordak
+1 A Thordak
 ```
 ##### OUT:
 ```
-7
+4
 ```
 
 ### Notes:
