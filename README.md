@@ -21,11 +21,6 @@ While doing this, you have managed to clearly define your rules:
 
 All that is left to do now, is figure out how you can distribute the items to get as many as possible...
 
-## Hungarian alogrithm problem
-### Algorithm:
-Make use of a network-flow alogrithm to maximize the amount of magic-items the party can atune to, prioritize items of higher rarity
-A player can atune to a maximum of 3 items
-
 ### Input
 The first line contains two integers `N` and `M`, indicating the number of players in the party and the number of magic items in the collection, respectively.<br/>
 The following `M` lines contain:
@@ -53,14 +48,16 @@ Output the maximum number of items which the party can take.
 4
 ```
 
+
+## Hungarian alogrithm problem
+### Algorithm:
+Make use of a network-flow alogrithm to maximize the amount of magic-items the party can atune to, prioritize items of higher rarity
+A player can atune to a maximum of 3 items
+
 ### Notes:
 Minimum cost matching <br/>
 Hungarian matching algorithm <br/>
 The hungarian matching algorithm works for square matrixes (where there are an equal amount of row and columns) which is not necessarily what we want. This can be fixed using 'dummy' items and characters in the implemntation or change the problem to have the exact amount of items as characters can assign to themselves. 
-
-
-
-
 
 ## Ford Fulkerson problem
 ### Algorithm:
