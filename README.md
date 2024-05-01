@@ -23,6 +23,7 @@ All that is left to do now, is figure out how you can distribute the items to ge
 
 ### Input
 The first line contains two integers `N` and `M`, indicating the number of players in the party and the number of magic items in the collection, respectively.<br/>
+After this comes `N` lines, containing the names of the players in the party.<br/>
 The following `M` lines contain:
 
 - An integer `c`, indicating the category of the item.
@@ -37,6 +38,8 @@ Output the maximum number of items which the party can take.
 ##### IN:
 ```
 2 5
+Thordak
+Galroc
 1 - Thordak
 2 A Thordak Galroc
 2 - Thordak
