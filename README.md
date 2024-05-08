@@ -1,6 +1,49 @@
 # AlgorithmicProblemsolving
 
-## D&D Matching magic-items with players
+## Magic Item Mayhem
+
+### Story:
+Your party has finally completed your latest quest and saved the town, but during the fight, that pesky monster destroyed all of your magic items!
+Luckily, a local lord has taken pity on you and decided to allow you to take as many magic items as you can carry from his own private collection, on the condition that every item you take is attuned to by a member of the party.
+
+As it turns out, the lord's collection is quite unique, and not only does every item require attunement, but most of the magic items have very specific requirements for the user.
+To make it easier on yourselves, you decide to label each item with the names of the players who meet the requirements to use it.
+It takes a bit of work, but after all the trouble you went through, you feel the right to be a little greedy.
+
+By now, you know the rules for attunement by heart:
+
+- A player can attune to at most `3` items.
+- A player can only attune to items which they meet the requirements for.
+
+All that is left to do now, is figure out how you can distribute the items to get as many as possible...
+
+### Input
+The first line contains two integers `N` and `M`, indicating the number of players in the party and the number of magic items in the collection, respectively.<br/>
+After this comes `N` lines, containing the names of the players in the party.<br/>
+The following `M` lines each represent an item, containing a list of names, indicating the people in your party who meet the requirements to use the item.
+
+### Output
+Output the maximum number of items which the party can take.
+
+### Sample:
+
+##### IN:
+```
+2 5
+Thordak
+Galroc
+Thordak
+Thordak Galroc
+Thordak
+Thordak
+Thordak
+```
+##### OUT:
+```
+4
+```
+
+## D&D Matching magic-items with players (With categories)
 
 ### Story:
 Your party has finally completed your latest quest and saved the town, but during the fight, that pesky monster destroyed all of your magic items!
