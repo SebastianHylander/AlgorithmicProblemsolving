@@ -4,7 +4,7 @@ import re
 line = sys.stdin.readline()
 
 # Check if the input is in the correct format
-if not re.fullmatch(r"^[1-9][0-9]* [1-9][0-9]*(\n|\r|\r\n)$", line):
+if not re.match(r"^[1-9][0-9]* [1-9][0-9]*(\n|\r|\r\n)$", line):
     sys.exit(43)
 
 n, m = map(int, line.split())
@@ -18,7 +18,7 @@ names = set()
 
 for i in range(n):
     line = sys.stdin.readline()
-    if not re.fullmatch(r"^[a-zA-Z]+(\n|\r|\r\n)$", line):
+    if not re.match(r"^[a-zA-Z]+(\n|\r|\r\n)$", line):
         sys.exit(43)
     name = line.strip()
     if name in names:
@@ -27,7 +27,7 @@ for i in range(n):
 
 for i in range(m):
     line = sys.stdin.readline()
-    if not re.fullmatch(r"^[01234] ([a-zA-Z]+ )*[a-zA-Z]+(\n|\r|\r\n)$", line):
+    if not re.match(r"^[01234] ([a-zA-Z]+ )*[a-zA-Z]+(\n|\r|\r\n)$", line):
         sys.exit(43)
     line = line.split()
     for name in line[1:]:
