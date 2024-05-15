@@ -1,0 +1,35 @@
+\problemname{Magic item mayhem}
+
+Your party has finally completed your latest quest and saved the town, but during the fight, that pesky monster destroyed all of your magic items!
+Luckily, a local lord has taken pity on you and decided to allow you to take as many magic items as you can carry from his own private collection, on the condition that each item is worn and attuned to by a member of the party.
+
+As it turns out, the lord's collection is quite unique, and not only does every item require attunement, but most of the magic items have very specific requirements for the user.
+You decide sort the items into $5$ categories - helmets, armor, cloaks, shields, and weapons - and label each item with the names of the players who meet the requirements to use it.
+It takes a bit of work, but after all the trouble you went through, you feel the right to be a little greedy.
+
+While doing this, you have managed to clearly define your rules:
+
+\begin{itemize}
+\item A player can wear at most $1$ item from each of the $5$ categories.
+\item A player can attune to at most $3$ items at once.
+\item A player can only attune to items which they meet the requirements for.
+\end{itemize}
+
+All that is left to do now, is figure out how you can distribute the items to get as many as possible...
+
+\begin{Input}
+
+The first line contains two integers $\leq N \leq$ and $\leq M \leq$, indicating the number of players in the party and the number of magic items in the collection, respectively.
+After this comes $N$ lines, containing the names of the players in the party.
+The following $M$ lines contain:
+
+\begin{itemize}
+\item An integer $c$, indicating the category of the item.
+\item A list of names, indicating the people in your party who meet the requirements to use the item.
+\end{itemize}
+\end{Input}
+
+\begin{Output}
+    
+Output the maximum number of items which the party can take.
+\end{Output}
