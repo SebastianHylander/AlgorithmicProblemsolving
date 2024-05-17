@@ -14,4 +14,4 @@ for _ in range(m):
             players[name][cat] = 1
             break
 
-print(sum(players.values()))
+print(sum(sum(cats) for cats in players.values()))
