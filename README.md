@@ -1,5 +1,27 @@
 # AlgorithmicProblemsolving
 
+## Report Guidelines
+
+- hand-in report as PDF, source as a single zip file
+- keep it brief
+- make algorithmic choices explicit
+- detail how you tested the code and designed test cases
+
+### Designed problem
+
+- [ ] provide problem description
+- [ ] provide algorithmic idea behind an intended solution
+- [ ] provide details on how you generated input cases and chose problem parameters
+- [ ] discuss solutions that do not solve the problem or run out of time
+
+### Solved problem
+
+- [ ] Provide link to kattis problem
+- [ ] Provide short formal description of the input/output (not necessary to repeat the original description)
+- [ ] How does your solution work
+- [ ] Why will it work within the time limit of the problem (running time discussion)
+- [ ] Discuss worst-case inputs given the parameters stated in the problem description (even better: generate such an input, report on the running time of your solution on that input)
+
 ## Magic Item Mayhem
 
 ### Story:
