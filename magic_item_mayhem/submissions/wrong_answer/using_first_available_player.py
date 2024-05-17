@@ -8,7 +8,7 @@ for _ in range(n):
 
 for _ in range(m):
     inp = input().split()
-    cat = int(inp[0])
+    cat = int(inp[0])-1
     for name in inp[1:]:
         if players[name][cat] == 0 and sum(players[name]) < 3:
             players[name][cat] = 1

@@ -12,7 +12,7 @@ n, m = map(int, line.split())
 
 # Check if the input is within the constraints
 ###### CHANGE THIS PART ######
-if not (1 <= n <= 1000 and 1 <= m <= 1000):
+if not (1 <= n <= 100 and 1 <= m <= 600):
     sys.exit(43)
 
 names = set()
@@ -28,7 +28,7 @@ for i in range(n):
 
 for i in range(m):
     line = sys.stdin.readline()
-    if not re.match(r"^[01234] ([a-zA-Z]+ )*[a-zA-Z]+(\n|\r|\r\n)$", line):
+    if not re.match(r"^[12345] ([a-zA-Z]+ )*[a-zA-Z]+(\n|\r|\r\n)$", line):
         sys.exit(43)
     line = line.split()
     for name in line[1:]:
