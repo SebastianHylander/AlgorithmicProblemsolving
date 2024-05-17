@@ -18,7 +18,7 @@
 
 #### Bar Shelf
 
-- [ ] Provide link to kattis problem
+- [x] Provide link to kattis problem
 - [ ] Provide short formal description of the input/output (not necessary to repeat the original description)
 - [ ] How does your solution work
 - [ ] Why will it work within the time limit of the problem (running time discussion)
@@ -26,7 +26,7 @@
 
 #### What Does It Mean?
 
-- [ ] Provide link to kattis problem
+- [x] Provide link to kattis problem
 - [ ] Provide short formal description of the input/output (not necessary to repeat the original description)
 - [ ] How does your solution work
 - [ ] Why will it work within the time limit of the problem (running time discussion)
@@ -34,7 +34,7 @@
 
 #### The Giant
 
-- [ ] Provide link to kattis problem
+- [x] Provide link to kattis problem
 - [ ] Provide short formal description of the input/output (not necessary to repeat the original description)
 - [ ] How does your solution work
 - [ ] Why will it work within the time limit of the problem (running time discussion)
