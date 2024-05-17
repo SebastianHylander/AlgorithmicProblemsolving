@@ -16,6 +16,24 @@
 
 ### Solved problem
 
+#### Bar Shelf
+
+- [ ] Provide link to kattis problem
+- [ ] Provide short formal description of the input/output (not necessary to repeat the original description)
+- [ ] How does your solution work
+- [ ] Why will it work within the time limit of the problem (running time discussion)
+- [ ] Discuss worst-case inputs given the parameters stated in the problem description (even better: generate such an input, report on the running time of your solution on that input)
+
+#### What Does It Mean?
+
+- [ ] Provide link to kattis problem
+- [ ] Provide short formal description of the input/output (not necessary to repeat the original description)
+- [ ] How does your solution work
+- [ ] Why will it work within the time limit of the problem (running time discussion)
+- [ ] Discuss worst-case inputs given the parameters stated in the problem description (even better: generate such an input, report on the running time of your solution on that input)
+
+#### The Giant
+
 - [ ] Provide link to kattis problem
 - [ ] Provide short formal description of the input/output (not necessary to repeat the original description)
 - [ ] How does your solution work
