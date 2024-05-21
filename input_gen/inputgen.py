@@ -1,10 +1,10 @@
 import random, string, edmonds_karp_for_gen
 
 # Replace 
-# 1 <= N <= 100 
-N = 100 
-# 1 <= M <= 600
-M = 600
+# 1 <= N <= 50 
+N = 50
+# 1 <= M <= 300
+M = 300
 
 filename = 'magic_item_mayhem/data/secret/' + str(N) + '_' + str(M)
 

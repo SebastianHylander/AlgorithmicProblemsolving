@@ -11,8 +11,7 @@ if not re.match(r"^[1-9][0-9]* [1-9][0-9]*(\n|\r|\r\n)$", line):
 n, m = map(int, line.split())
 
 # Check if the input is within the constraints
-###### CHANGE THIS PART ######
-if not (1 <= n <= 100 and 1 <= m <= 600):
+if not (1 <= n <= 50 and 1 <= m <= 300):
     sys.exit(43)
 
 names = set()
