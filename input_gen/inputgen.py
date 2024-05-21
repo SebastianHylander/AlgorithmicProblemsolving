@@ -4,9 +4,9 @@ import random, string, edmonds_karp_for_gen
 # 1 <= N <= 50 
 N = 50
 # 1 <= M <= 300
-M = 300
+M = 1
 
-filename = 'magic_item_mayhem/data/secret/' + str(N) + '_' + str(M)
+filename = '../magic_item_mayhem/data/secret/' + str(N) + '_' + str(M)
 
 fin = open(filename + '.in', "x")
 
