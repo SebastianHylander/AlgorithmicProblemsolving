@@ -44,13 +44,13 @@ combinations = combine(prefs.keys(), [i for i in range(m)])
 max_value = 0
 for combination in combinations:
     valid = True
-    for name, items in combination.items():
+    for name, given_items in combination.items():
         holding = set()
-        for item in items:
-            if item in holding or item not in prefs[name][1]:
+        for item in given_items:
+            if items[item] in holding or item not in prefs[name][1]:
                 valid = False
                 break
-            holding.add(item)
+            holding.add(items[item])
         
         if len(holding) > 3:
             valid = False
