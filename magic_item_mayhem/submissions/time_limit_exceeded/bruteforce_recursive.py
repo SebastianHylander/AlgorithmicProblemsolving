@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-# Apparently gets time limit exceeded instead of run time error
-
 n,m = map(int,input().split())
 
 players = dict()

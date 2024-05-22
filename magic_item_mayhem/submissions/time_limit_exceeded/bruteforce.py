@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-# This appears to not consider categories
-
 from copy import deepcopy
 n, m = map(int, input().split())
 

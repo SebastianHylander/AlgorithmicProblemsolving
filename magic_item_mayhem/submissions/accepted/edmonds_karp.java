@@ -1,6 +1,3 @@
-// Don't include this. It makes problemtools give a run time error
-// package magic_item_mayhem.submissions.accepted;
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Dictionary;
